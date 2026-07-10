@@ -211,7 +211,8 @@ ul li::marker{
     font-family: ui-monospace,  "SF Mono", "JetBrains Mono", Consolas, monospace;
     display: flex;
     justify-content: center;
-    padding: 64px 20px;
+    /* padding: 64px 20px; */
+    padding: 0 24px;
     width: 100%;
     max-width: 1300px;
 }
