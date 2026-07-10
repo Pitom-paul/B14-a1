@@ -213,7 +213,7 @@ ul li::marker{
     justify-content: center;
     padding: 64px 20px;
     width: 100%;
-    max-width: 1500px;
+    max-width: 1300px;
 }
 .poll-frame{
     background-color: var(--panel);

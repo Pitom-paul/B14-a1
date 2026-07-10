@@ -1,0 +1,1 @@
+PROMPTS :  I asked AI to suggest an idea for a dev conference webpage section. It suggested a live poll: 'What's hyped this year?' with 4 tech options. Then I asked it to code the poll using only CSS (no JavaScript).
