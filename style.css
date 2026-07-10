@@ -215,7 +215,7 @@ footer{
 .social a{
     color:#888888;
     font-size:20px;
-    transition:.3s;
+    
 }
 
 .social a:hover{
@@ -246,7 +246,7 @@ footer hr{
 .privacy a{
     text-decoration:none;
     color:#888888;
-    transition:.3s;
+   
 }
 
 .privacy a:hover{
