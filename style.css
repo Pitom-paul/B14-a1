@@ -79,17 +79,118 @@ nav button{
      margin-top: 50px;
     font-size: 48px;
 }
-.card img{
+.men img{
     width: 100%;
     height: 320px;
     object-fit: cover;
 }
 .content span{
     color: #2563EB;
-    font-size: 14px;
+    font-size: 10px;
 }
 .speakers{
    
     width: 80%;
     margin: auto;
+}
+
+/* Secure Your Spot */
+
+.pricing{
+    width: 1100px;
+    margin: 80px auto;
+
+}
+.heading{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.heading h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.heading p{
+    color: #575757;
+}
+.price{
+    font-size: 52px;
+    font-weight: 700;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 60px;
+    gap: 24px;
+}
+.standard{
+    width: 300px;
+    padding: 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    
+
+}
+.pro{
+   
+    width: 300px;
+    padding: 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 20px;
+    background-color: #0D1B2A;
+    color: white;
+}
+
+.team{
+    width: 300px;
+    padding: 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+.get{
+  width: 100%;
+  padding: 12px;
+  margin-top: 25px;
+  border: 1px solid #2563EB;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+  color: #2563EB;
+}
+.pro .get{
+    background-color: #2563EB;
+    color: white;
+    border: none;
+}
+.cards ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.standard li{
+    margin-bottom: 12px;
+    
+}
+.pro li{
+     margin-bottom: 13px;
+}
+.team li{
+     margin-bottom: 12px;
+    
+}
+.standard .pro .team{
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+.deg{
+    color: #93C5FD;
+}
+.clr{
+    color: #888888;
+}
+.txt{
+    color: #888888;
+}
+ul li::marker{
+    color: #2563EB;
 }
